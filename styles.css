@@ -49,7 +49,12 @@ nav ul li a:hover {
   color: orange;
 }
 
+.mainPg {
+  display: flex;
+}
+
 .detel {
+  flex: top;
   margin-left: 8%;
   margin-top: 15%;
 }
@@ -346,5 +351,10 @@ span {
   color: black;
 }
 #projectLiveBtn:hover {
+  color: #ffc234;
+}
+
+#icon {
+  margin-right: 15px;
   color: #ffc234;
 }
