@@ -5,6 +5,10 @@
   font-family: "Alkatra", "cursive";
 }
 
+.forbg {
+  background-color: #eff4fd;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -309,4 +313,30 @@ span {
 
 .lang p {
   font-size: 12px;
+}
+
+#noformatting {
+  text-decoration: none;
+  color: inherit;
+}
+
+#projectBtns {
+  margin-top: 10px;
+}
+
+#projectCodeBtn {
+  margin-left: 25px;
+  background-color: white;
+  color: black;
+}
+#projectCodeBtn:hover {
+  color: #ffc234;
+}
+#projectLiveBtn {
+  margin-left: 25px;
+  background-color: white;
+  color: black;
+}
+#projectLiveBtn:hover {
+  color: #ffc234;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personle Portfolio Website</title>
+    <title>Yash' Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -20,6 +20,8 @@
       src="https://kit.fontawesome.com/dec0fb98b5.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </head>
   <body>
@@ -32,8 +34,9 @@
           <li><a href="#home">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#education">EDUCATION</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">HIRE ME</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#project">PROJECTS</a></li>
+          <li><a href="#approach">APPROACH ME</a></li>
         </ul>
       </nav>
       <div class="detel">
@@ -65,6 +68,8 @@
       </div>
       </div>
 
+
+      <div class="forbg">
       <div id="about">
         <!-- About Me Section -->
     <h1 id="about" class="about-me-text"><span class="about">Abo</span>ut<span class="me"> Me</span></h1>
@@ -161,8 +166,46 @@
             </li>
           </ul>
         </div>
-        
+      </div>
+
+      <div id="experience">
+        <div class="education-details">
+          <h2 class="section-heading">Work <span id="black">Experience</span></h2>
+          <ul class="education-list">
+            <a id="noformatting" href="https://drive.google.com/file/d/1_zrsWBCn9orwmhvQDIdixe2BeNLhPSbg/view?usp=share_link" target="_blank">
+            <li>
+              <h3 class="degree-heading">Web Developer</h3>
+              <p class="school">Intern</p>
+              <p class="school">Lets Grow More</p>
+              <!-- <p class="school">CPI : 9.17</p> -->
+              <p class="year">11/2022 - 12/2022</p>
+            </li>
+          </a>
+          </ul>
+        </div> 
       </div>
     </div>
+
+    <div id="project">
+      <div class="education-details">
+        <h2 class="section-heading">My <span id="black">Projects</span></h2>
+        <ul class="education-list">
+          <a id="noformatting" href="https://portfolio-kappa-umber-50.vercel.app/" target="_blank">
+          <li>
+            <h3 class="degree-heading">Portfolio</h3>
+            <img id="projectImg" src="images/portfolio.jpg" width="300" alt="">
+            <div id="projectBtns">
+              <a href="https://github.com/yalathiya/portfolio" target="_blank"><button id="projectCodeBtn" type="button" class="btn btn-outline-warning">Code</button></a>
+              <a href="https://portfolio-kappa-umber-50.vercel.app/" target="_blank"></a><button id="projectLiveBtn" type="button" class="btn btn-outline-warning">Live <i class="fa-solid fa-arrow-up-right"></i></button></a>
+            </div>
+            
+          </li>
+        </a>
+        </ul>
+      </div> 
+    </div>
+  </div>
+
+  </div>
   </body>
 </html>
