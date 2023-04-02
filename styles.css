@@ -320,6 +320,12 @@ span {
   color: inherit;
 }
 
+#projectImg {
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
 #projectBtns {
   margin-top: 10px;
 }
@@ -327,6 +333,7 @@ span {
 #projectCodeBtn {
   margin-left: 25px;
   background-color: white;
+  border: 2px solid orange;
   color: black;
 }
 #projectCodeBtn:hover {
@@ -335,6 +342,7 @@ span {
 #projectLiveBtn {
   margin-left: 25px;
   background-color: white;
+  border: 2px solid orange;
   color: black;
 }
 #projectLiveBtn:hover {
