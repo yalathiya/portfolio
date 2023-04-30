@@ -11,5 +11,5 @@ window.onload = function () {
   setInterval(function () {
     textElement.innerHTML = texts[textIndex];
     textIndex = (textIndex + 1) % texts.length;
-  }, 1000);
+  }, 4000);
 };
